@@ -28,7 +28,7 @@ footer { margin-top:48px; padding-top:16px; padding-bottom:40px; border-top:1px 
 <header><a href="https://madfang.com/">Mad<span>Fang</span></a></header>
 <main>
 <h1>Privacy Policy</h1>
-<p><em>Last updated: 10 November 2026</em></p>
+<p><em>Last updated: 11 November 2026</em></p>
 <p>This policy explains what personal data MadFang collects, why we collect it, who we share it with, and the rights you have over it. It covers madfang.com and the MadFang Mailer, the tool we use to send email on behalf of our clients.</p>
 <h2>1. Who is responsible</h2>
 <p>MadFang is the data controller for information collected through this website and through MadFang Mailer. For any question about this policy, or to exercise any of the rights listed below, write to contact@madfang.com.</p>
@@ -57,17 +57,18 @@ footer { margin-top:48px; padding-top:16px; padding-bottom:40px; border-top:1px 
 <p>If we change what we collect or why, we will update this page and change the date at the top.</p>
 <h2>9. MadFang Mailer and Google user data</h2>
 <p>MadFang Mailer is an internal tool that MadFang uses to send outreach emails on behalf of our clients, from the client's own Google Workspace mailbox. It is used only for mailboxes whose owners have hired MadFang for this work, and only after the mailbox owner has signed in with Google and granted access.</p>
-<p><strong>What Google data the app accesses.</strong> When a mailbox owner connects MadFang Mailer, Google asks them to grant two permissions:</p>
+<p><strong>What Google data the app accesses.</strong> When a mailbox owner connects MadFang Mailer, Google asks them to grant three permissions:</p>
 <ul>
 <li><strong>Send email on your behalf</strong> (<code>gmail.send</code>). The app uses this only to send the emails the client has approved, from the client's own address.</li>
-<li><strong>Your email address</strong> (<code>openid</code>, <code>email</code>). The app uses this only to confirm it is sending from the correct mailbox.</li>
+<li><strong>Read your email</strong> (<code>gmail.readonly</code>). The app uses this only to find the answers to the outreach emails it sent: replies, bounce notices and automatic replies (for example "out of office" or "no longer with the company"). This lets the client's outreach list be kept accurate and stops follow-up emails to people who have answered, left, or whose address no longer works.</li>
+<li><strong>Your email address</strong> (<code>openid</code>, <code>email</code>). The app uses this only to confirm it is working with the correct mailbox.</li>
 </ul>
-<p>The app cannot read, search, delete or change any email, contact, calendar entry or file in the mailbox. It has no access to Google Drive.</p>
-<p><strong>How we use it.</strong> Google user data is used only to provide this sending function for the client who connected the mailbox. We do not use it for advertising, we do not sell it, and we do not use it to build profiles or to develop or train any AI or machine-learning models.</p>
-<p><strong>How we store and protect it.</strong> The only thing the app keeps is the access token Google issues when the owner grants permission. It is stored only on MadFang's own access-controlled computer, never in a shared or public system, is never shared, and is used only to send the client's emails. The content of the sent emails is not kept by the app; it remains in the client's own Sent folder in Gmail.</p>
-<p><strong>Sharing.</strong> We do not transfer Google user data to anyone, except as needed to send the emails the client asked us to send, or if the law requires it.</p>
+<p>The app cannot delete, change, label or move any email, and it has no access to contacts, calendar entries or Google Drive.</p>
+<p><strong>How we use it.</strong> Google user data is used only to send the client's outreach and to track the answers to it, for the client who connected the mailbox. The app looks only at the threads of emails it sent and at bounce and automatic-reply notices; it does not process the client's other email. We do not use it for advertising, we do not sell it, and we do not use it to build profiles or to develop or train any AI or machine-learning models.</p>
+<p><strong>How we store and protect it.</strong> The app keeps the access token Google issues when the owner grants permission and, for each outreach email, a short record of any answer: its date, sender, subject, a short excerpt and whether it was a reply, a bounce or an automatic reply. Both are stored only on MadFang's own access-controlled computer, never in a shared or public system, and are never shared. The record is used only to update the client's outreach tracker. The content of the emails themselves stays in the client's own Gmail.</p>
+<p><strong>Sharing.</strong> We do not transfer Google user data to anyone except the client who owns the mailbox (as the status of their own outreach in their tracker), or if the law requires it.</p>
 <p><strong>Limited Use.</strong> MadFang Mailer's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
-<p><strong>Retention and deletion.</strong> We keep the access token only while we work with the client. When the work ends, or when the client asks, we delete it. A mailbox owner can also remove MadFang Mailer's access at any time, without asking us, at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>. After that the app can no longer send from that mailbox.</p>
+<p><strong>Retention and deletion.</strong> We keep the access token and the answer records only while we work with the client. When the work ends, or when the client asks, we delete them. A mailbox owner can also remove MadFang Mailer's access at any time, without asking us, at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>. After that the app can no longer send from or read that mailbox.</p>
 <p><strong>Questions.</strong> Write to contact@madfang.com.</p>
 </main>
 <footer>MadFang &middot; <a href="mailto:contact@madfang.com">contact@madfang.com</a> &middot; <a href="https://madfang.com/">madfang.com</a></footer>
